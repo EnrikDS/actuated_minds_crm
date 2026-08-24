@@ -1,0 +1,26 @@
+data_input:
+  file_name: /home/enrique/Code/actuated_minds_CRM/data/input/actuated_minds_target_crm_all_contacts.xlsm
+  contact_names_sheet: All contacts
+
+column_mapping:
+ "Priority": priority
+ "Contact Name": name
+ "Region": region
+ "Organisation": organisation
+ "Category": category
+ "Relevant Themes": relevant_themes
+ "Typical Stage / Use Case": typical_stage
+ "Website": website
+ "Best Buyer Persona": best_buyer_persona
+ "Role / Function": role
+ "Why This Contact": why_this_contact
+ "LinkedIn Search URL": linkedin_url
+ "Connection sent": connection_sent
+ "Innconectable": innconectable
+ "Longer message sent": longer_message_sent
+ "Confidence": confidence
+ "Source / Verification URL": source_url
+ "Suggested Outreach Angle": outreach_angle
+ "Last Contacted": last_contacted
+ "Next Follow-up": next_follow_up
+ "Outcome": outcome

@@ -1,0 +1,22 @@
+[project]
+name = "actuated-minds-crm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Enrique", email = "e.delsol.acero@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pydantic>=2.13.4",
+    "pyyaml>=6.0.3",
+    "typing>=3.10.0.0",
+]
+
+[project.scripts]
+actuated-minds-crm = "actuated_minds_crm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
